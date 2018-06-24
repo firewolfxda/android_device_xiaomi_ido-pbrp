@@ -80,3 +80,12 @@ TW_EXTRA_LANGUAGES := true
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
+
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
+
+#Official
+PB_OFFICIAL := true
