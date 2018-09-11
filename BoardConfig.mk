@@ -81,6 +81,10 @@ TW_EXTRA_LANGUAGES := true
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Treble
+BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
+TARGET_COPY_OUT_VENDOR := vendor
+
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
 
